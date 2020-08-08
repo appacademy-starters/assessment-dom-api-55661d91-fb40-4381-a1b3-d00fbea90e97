@@ -8,7 +8,7 @@ window.addEventListener('DOMContentLoaded', () => {
     .parentElement
     .addEventListener('click', function (e) {
       if (e.target.id === 'bubble-trouble') {
-        this.style.backgroundColor = 'black';
+        this.classList += 'red';
       }
     });
 });

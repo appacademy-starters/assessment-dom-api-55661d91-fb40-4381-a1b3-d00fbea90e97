@@ -72,13 +72,13 @@
     </ul>
     <p>
       When you click the solid orange rectangle below with the text "bubble
-      trouble" in it, then the rectangle surrounding it should _not_ turn black
+      trouble" in it, then the rectangle surrounding it should _not_ turn red
       because you have stopped the propagation of the event up the stack. Write
       code in the "your-code.js" file to make that happen.
     </p>
     <div class="problem-area" id="problem-area-4">
-      <div>
-        <div id="bubble-trouble">bubble trouble</div>
+      <div id="problem-area-4-child">
+        <button id="bubble-trouble">bubble trouble</button>
       </div>
     </div>
   </fieldset>
@@ -162,15 +162,15 @@
   <fieldset>
     <legend>PROBLEM 7: Don't go there!</legend>
     <ul>
-      <li>Link id: <code>going-away</code></li>
+      <li>Link id: <code>navigates-elsewhere</code></li>
     </ul>
     <p>
       Subscribe to the "click" event of the link below and prevent the default
       behavior from occurring. You'll know it works when you click on the link
-      and it doesn't open another window with the App Academy Web site in it.
+      and the browser URL remains exactly the same.
     </p>
     <div class="problem-area" id="problem-area-7">
-      <a href="https://appacademy.io" target="_blank" id="going-away">
+      <a href="#elsewhere" id="navigates-elsewhere">
         App Academy
       </a>
     </div>

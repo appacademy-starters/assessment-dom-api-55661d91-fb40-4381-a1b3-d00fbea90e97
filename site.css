@@ -119,7 +119,7 @@ pre {
   width: 40px;
 }
 
-#red-outlined-square.red {
+#red-outlined-square.red, .red {
   background-color: red;
 }
 
